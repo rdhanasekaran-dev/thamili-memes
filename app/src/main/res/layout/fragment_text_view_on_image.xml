@@ -8,6 +8,7 @@
             type="com.dogood.thamizhimemes.viewmodel.imageEdit.TextViewOnImageViewmodel" />
     </data>
     <RelativeLayout
+        android:background="#000000"
         android:id="@+id/rl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
