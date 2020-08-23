@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_edit_navgraph"
+    app:startDestination="@id/galleryImageViewFragment">
+
+    <fragment
+        android:id="@+id/galleryImageViewFragment"
+        android:name="com.dogood.thamizhimemes.fragments.imageEditFragments.GalleryImageViewFragment"
+        android:label="fragment_gallery_image_view"
+        tools:layout="@layout/fragment_gallery_image_view" >
+        <action
+            android:id="@+id/action_galleryImageViewFragment_to_writeOnImageFragment"
+            app:destination="@id/writeOnImageFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_write_on_image"
+        android:id="@+id/writeOnImageFragment"
+        android:name="com.dogood.thamizhimemes.fragments.imageEditFragments.WriteOnImageFragment"
+        android:label="WriteOnImageFragment" >
+        <action
+            android:id="@+id/action_writeOnImageFragment_to_textViewOnImageFragment"
+            app:destination="@id/textViewOnImageFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_text_view_on_image"
+        android:id="@+id/textViewOnImageFragment"
+        android:name="com.dogood.thamizhimemes.fragments.imageEditFragments.TextViewOnImageFragment"
+        android:label="TextViewOnImageFragment" />
+</navigation>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790898070209",
+    "firebase_url": "https://thamizhi-memes.firebaseio.com",
+    "project_id": "thamizhi-memes",
+    "storage_bucket": "thamizhi-memes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790898070209:android:c40acda7a53be4a2d77a40",
+        "android_client_info": {
+          "package_name": "com.dogood.thamizhimemes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790898070209-81g3tt9fnfvls3hbq06c25a4jkumoe22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBitknn205Zzj0dKk3NrRUmELG-2eXRD6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790898070209-81g3tt9fnfvls3hbq06c25a4jkumoe22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

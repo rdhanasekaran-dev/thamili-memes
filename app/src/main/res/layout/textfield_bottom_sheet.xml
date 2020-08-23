@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@+id/bottomSheetContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_gravity="end"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/done"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Done"
+            android:textAllCaps="false"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/imageTextLayout"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@null"
+                android:textColorHint="#cfcfcf"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:inputType="text"
+                android:id="@+id/imageText"
+                android:paddingBottom="20dp"
+                android:hint="Type here">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_textview"/>
+            <SeekBar
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textSizeChangeBar"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
