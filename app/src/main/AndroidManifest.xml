@@ -14,8 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.createMeme.CreateMemeActivity"></activity>
-        <activity android:name=".activities.imageEdit.CreateMemeActivity" />
+        <activity
+            android:name=".activities.createMeme.CreateMemeActivity"
+            android:theme="@style/CreateMemeTheme"/>
         <activity android:name=".activities.imageEdit.ImageEditActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>

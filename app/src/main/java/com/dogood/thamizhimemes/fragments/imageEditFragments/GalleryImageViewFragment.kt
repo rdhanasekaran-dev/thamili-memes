@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.dogood.thamizhimemes.activities.createMeme.CreateMemeActivity
 import com.dogood.thamizhimemes.adapter.GalleryImageViewAdapter
 import com.dogood.thamizhimemes.databinding.FragmentGalleryImageViewBinding
 import com.dogood.thamizhimemes.utils.getGalleryImages
@@ -85,8 +86,12 @@ class GalleryImageViewFragment : Fragment() {
     }
 
     fun next(){
-        val action = GalleryImageViewFragmentDirections.actionGalleryImageViewFragmentToWriteOnImageFragment()
-        findNavController().navigate(action)
+//        val action = GalleryImageViewFragmentDirections.actionGalleryImageViewFragmentToWriteOnImageFragment()
+//        findNavController().navigate(action)
+
+        val i=Intent(activity!!,CreateMemeActivity::class.java)
+        startActivity(i)
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
