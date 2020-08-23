@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_meme_navgraph"
+    app:startDestination="@id/editMemeFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_edit_meme"
+        android:id="@+id/editMemeFragment"
+        android:name="com.dogood.thamizhimemes.fragments.createMemeFragments.EditMemeFragment"
+        android:label="EditMemeFragment" />
+</navigation>
